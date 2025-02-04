@@ -22,6 +22,7 @@ function verificarEdad() {
 
 }
 
+//caso 2
 function verificarParImpar() {
     let numero3 = document.getElementById('numero3').value;
 
@@ -37,6 +38,7 @@ function verificarParImpar() {
     console.log(numeroconvertido)
 }
 
+//caso 3
 function evaluarNota() {
     
     let nota = document.getElementById('nota').value;
@@ -59,6 +61,39 @@ function evaluarNota() {
         //alert("reprobado")
         document.getElementById('mensajeNota').innerText = `El resultado es reprobado`;
     }
+}
+
+// caso 4
+function calcularDescuento() {
+    let monto = document.getElementById('monto').value;
+
+    let numeroconvertido = parseFloat(monto)
+    console.log(numeroconvertido)
+
+    let descuento = numeroconvertido * 0.9 
+
+        if (numeroconvertido * 0.9 >= 100) {
+            document.getElementById('mensajeDescuento').innerText = `Tiene un descuento del 10% es cual es ${descuento}`;
+        } else {
+            document.getElementById('mensajeDescuento').innerText = `No tiene un descuento`;
+        }
+    
+    
+}
+
+//caso 5
+function verificarMayorMenor() {
+    let edad = document.getElementById('edadSimple').value;
+    console.log(edad)
+
+    if (edad >= 18) {
+
+        document.getElementById('mensajeEdadSimple').innerText = `Eres mayor de edad`;
+    } else {
+
+        document.getElementById('mensajeEdadSimple').innerText = `Eres Menor de edad`;
+    }
+    
 }
 
 //parse int
