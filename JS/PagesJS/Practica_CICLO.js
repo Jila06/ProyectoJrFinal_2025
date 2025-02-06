@@ -112,9 +112,9 @@ function personasActivas() {
 
     personas.forEach(element => {
         
-        if (element.activo = true) {
+        if (element.activo === true) {
 
-            resultado.innerHTML = += `
+            resultado.innerHTML += `
              <li> nombre: ${element.nombre}</li>
             
             `
