@@ -105,22 +105,123 @@ function primeraPersonaActiva() {
     }
 } 
 
+// caso 3
+function primeraMayorDeEdad() {
+    let resultado = document.getElementById('resultadoMayor');
 
-//caso 6
-function personasActivas() {
-    let resultado = document.getElementById('listaActivos');
+    let busqueda = personas.find(x => x.edad >= 18 )
+
+    if (busqueda) {
+        resultado.innerHTML = `La primera persona encontrada es ${busqueda.nombre} con ${busqueda.edad} años`
+        
+    } else {
+        resultado.innerHTML = `No se encontro a nadie Mayor de edad `
+    }
+    
+}
+
+//caso 4
+function mostrarTodasLasPersonas() {
+    let resultado = document.getElementById('listaPersonas');
 
     personas.forEach(element => {
-        
-        if (element.activo === true) {
 
             resultado.innerHTML += `
-             <li> nombre: ${element.nombre}</li>
-            
+            <li> nombre: ${element.nombre}, edad: ${element.edad}, activo: ${element.activo} </li>
+
+
+          ` 
+
+        
+    });
+    
+}
+
+//caso 5
+
+function mayoresDeEdad() {
+    let resultado = document.getElementById('listaMayores');
+
+    personas.forEach(element => {
+        if (element.edad >= 18) {
+            resultado.innerHTML += `
+              <li> nombre: ${element.nombre} </li>
+
+
             `
+            
             
         }
         
     });
     
 }
+
+ //caso 6
+ function personasActivas() {
+   let resultado = document.getElementById('listaActivos');
+
+     personas.forEach(element => {
+        
+       if (element.activo === true) {
+            resultado.innerHTML += `
+              <li> nombre: ${element.nombre}</li>
+
+
+            `
+            
+         }
+        
+     });
+    
+ }
+
+
+ //caso 6
+// function personasActivas() {
+//     let resultado = document.getElementById('listaActivos'); // Para mostrar donde queremos poner el resultado
+
+//     personas.forEach(element => {  //forma mas facil de usar un array
+//         if (element.activo === true) {
+//             //se puede añadir if dentro de for each 
+//             resultado.innerHTML += `              
+//             <li> nombre: ${element.nombre}</li>
+//             `
+//         }
+        
+//     });
+    
+// }
+
+//caso 6
+// function personasActivas() {
+//     let resultado = document.getElementById('listaActivos'); // Para mostrar donde queremos poner el resultado
+
+//     personas.forEach(element => {  //agarra cada elemento de un array
+//         if (element.activo === true) {
+//             //se puede añadir if dentro de for each 
+//             resultado.innerHTML += `              
+//             <li> nombre: ${element.nombre}</li>
+//             `
+//         }
+        
+//     });
+    
+// }
+
+
+//caso 6
+// function personasActivas() {
+//     let resultado = document.getElementById('listaActivos'); // En que id queremos mostar el resultado
+
+//     personas.forEach(element => {  //forma mas facil de usar un array
+//         if (element.activo === true) {
+//             //se puede añadir if dentro de for each 
+//             resultado.innerHTML += `              
+//             <li> nombre: ${element.nombre}</li>
+//             `
+//         }
+        
+//     });
+    
+// }
