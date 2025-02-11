@@ -29,6 +29,8 @@ function consultarDatos() {
             // custom error
             console.log(result)
             DatosFiltrados = result
+            Mostrar_CampoTabla()
+
         })
         .catch(error => {      ///4- Catch
             // common error
