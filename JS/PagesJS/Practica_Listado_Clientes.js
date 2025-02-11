@@ -22,7 +22,7 @@ function Mostrar_CampoTabla() {
     
     let html = ""
 
-    Datos_Locales.forEach(element => {
+    DatosFiltrados.forEach(element => {
         console.log(element)
 
         html += `
