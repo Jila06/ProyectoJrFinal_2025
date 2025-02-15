@@ -22,13 +22,13 @@
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <!-- Estilos Personalizados -->
     <link rel="stylesheet" href="CSS/styles.css">
-    <link rel="shortcut icon" href="Assets/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="Assets/favicon.t" type="image/x-icon">
 </head>
 
 <body>
 
     <!-- Inicio: Navbar  100% -->
-    <nav class="navbar navbar-expand-sm navbar-light bg-light" id="IdNav"> </nav>
+    <nav class="navbar navbar-expand-sm navbar-light bg-lightblue" id="IdNav"> </nav>
     <!-- Fin: Navbar  -->   
     
 
@@ -44,6 +44,11 @@
 
         <!-- Inicio: Main  -->
         <main class="mt-5">
+            <div class="container">
+                <p class="h2 mb-2">
+                Si estas interesado en ser el primero en saber sobre proximos concierto o evento. Ingresa tus datos personales para contactarte lo mas rapido posible 
+                </p>
+            </div>
             <div class="container d-flex justify-content-center align-items-center vh-100">
                 <div class="w-50">
                     <h2 class="text-center">Formulario de Datos</h2>
@@ -55,6 +60,14 @@
                         <div class="form-group">
                             <label for="edad">Edad</label>
                             <input type="number" class="form-control" id="edad" placeholder="Ingrese su edad">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo Electronico</label>
+                            <input type="email" class="form-control" id="email" placeholder="Ingrese su correo">
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Telefono</label>
+                            <input type="number" class="form-control" id="telefono" placeholder="Ingrese su telefono">
                         </div>
                         <button type="button" class="btn btn-primary btn-block" onclick="enviarDatos()">Enviar</button>
                     </form>

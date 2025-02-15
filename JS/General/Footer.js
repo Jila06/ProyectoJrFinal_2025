@@ -19,9 +19,8 @@ function Mostrar_Footer() {
 
                 <div class="col-md-5 col-sm-6">
                     <!-- Fin: Contenedor 1 -->
-                    <p class="text-muted"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quos
-                        dolorum possimus facere laborum! Sapiente ad veritatis, laudantium itaque distinctio
-                        necessitatibus vel molestias, omnis incidunt dolore in impedit sint totam?</p>
+                    <p class=""> Siguenos en nuestars redes sociales para mantenerte al tanto
+                     de todo.</p>
                 </div>
                 <!-- Fin: footer-mensaje -->
 
@@ -33,7 +32,7 @@ function Mostrar_Footer() {
 
                 </div>
                 <!-- Inicio: Contenedor 3 2 columnas  -->
-                <div class="col-md-2 col-sm-6 iconos">
+                <div class=" col-md-2 col-sm-6 iconos">
                     <i class="fab fa-facebook-f"></i>
                     <i class="fab fa-instagram"></i>
                     <i class="fab fa-twitter"></i>

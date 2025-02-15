@@ -20,9 +20,9 @@ function Mostrar_Testimonios() {
 
    <div class="container">
         <p class="h2 mb-2">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta atque explicabo non iste deserunt, ad odit earum debitis id illum laudantium sapiente aperiam saepe nostrum beatae blanditiis. Assumenda, molestiae quod?  
+        Me encanta esta pagina puedo buscar los conciertos y eventos que pasaran en Costa Rica de una forma mas rapida y eficaz! 
         </p>
-        <p class="h4 lead">- Autor </p>
+        <p class="h4 lead">-Juan Perez </p>
     </div>
                 
 
@@ -43,23 +43,76 @@ function Mostrar_Articulos() {
 
                         <!-- Inicio: Contenedor 1  -->
                         <div class="col-md-6 col-sm-6">
-                           <img src="Assets/image2.png" class="w-100" alt="">
+                           <img src="Assets/241009083054833_performer_img_1200x400.jpg" class="w-100" alt="">
                         </div>
                         <!-- Fin: Contenedor 1 -->
 
                         <!-- Inicio: Contenedor 2  -->
                         <div class="col-md-6 col-sm-6">
-                            <h2>Lorem ipsum</h2>
+                            <h2>Camilo</h2>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magnam autem quidem dolor in nostrum ex, illo, animi cumque earum dicta quibusdam optio sapiente reprehenderit tempore aperiam repellendus soluta reiciendis.
+                                FEBRERO 23 2025 <br>
+                                PARQUE VIVA	ALAJUELA a las 19:00 hrs <br>
+                                CAMILO - NUESTRO LUGAR FELIZ TOUR
+
                             </p>
-                            <a class="btn btn-danger btn-lg" href="#">Read More</a>
+                            <a class="btn btn-danger btn-lg" href="https://www.eticket.cr/eventos.aspx?idartista=1178">Ver mas</a>
                         </div>
                         <!-- Fin: Contenedor  2-->
                     </div>
 
                 </div>
 
+
+                <div class="container">
+
+                    <div class="row">
+
+                        <!-- Inicio: Contenedor 1  -->
+                        <div class="col-md-6 col-sm-6">
+                           <img src="Assets/241015105734179_performer_img_1200x400.jpg" class="w-100" alt="">
+                        </div>
+                        <!-- Fin: Contenedor 1 -->
+
+                        <!-- Inicio: Contenedor 2  -->
+                        <div class="col-md-6 col-sm-6">
+                            <h2>Chayanne</h2>
+                            <p>
+                                ABRIL 5 2025 <br>
+                                ESTADIO NACIONAL <br>
+                                CHAYANNE - BAILEMOS OTRA VEZ TOUR
+                            </p>
+                            <a class="btn btn-danger btn-lg" href="https://www.eticket.cr/eventos.aspx?idartista=826">Ver mas</a>
+                        </div>
+                        <!-- Fin: Contenedor  2-->
+                    </div>
+
+                </div>
+
+                <div class="container">
+
+                    <div class="row">
+
+                        <!-- Inicio: Contenedor 1  -->
+                        <div class="col-md-6 col-sm-6">
+                           <img src="Assets/250205145406387_performer_img_1200x400.jpg" class="w-100" alt="">
+                        </div>
+                        <!-- Fin: Contenedor 1 -->
+
+                        <!-- Inicio: Contenedor 2  -->
+                        <div class="col-md-6 col-sm-6">
+                            <h2>Reik</h2>
+                            <p>
+                                MAYO 3 2025
+                                Centro de Eventos Pedregal	BELEN
+                                REIK 2025 - EVENTO PARA MAYORES DE 18 AÑOS
+                            </p>
+                            <a class="btn btn-danger btn-lg" href="https://www.eticket.cr/eventos.aspx?idartista=1204">Ver mas</a>
+                        </div>
+                        <!-- Fin: Contenedor  2-->
+                    </div>
+
+                </div>
 `;
     
 }

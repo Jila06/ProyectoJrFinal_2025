@@ -5,13 +5,17 @@ console.log(`Funcionando Archivo: Practica_Calculadora`);
     debugger
     let nombre = document.getElementById("nombre").value;
     let edad = document.getElementById("edad").value;
-    
+    let email = document.getElementById("email").value;
+    let telefono = document.getElementById("telefono").value;
     //Mostrar
     //Alert , Console log /Inner 
     //cl
     console.log('Mostrar Nombre :',nombre);
     console.log('Mostrar Edad:',edad);
-    alert(`Nombre: ${nombre} Edad: ${edad}`)
+    console.log('Mostrar Email:',email);
+    console.log('Mostrar Telefono:',telefono);
+
+    alert(`Nombre: ${nombre} Edad: ${edad} Email: ${email} Telefono: ${telefono}`)
 }
 
 function realizarSuma() {
