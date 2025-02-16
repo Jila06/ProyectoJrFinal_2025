@@ -9,9 +9,12 @@
 nav{
     background-color: rgb(62, 105, 197);
 }
+.imagennav{
+    width: 25px;
+}
 
 body{
-    font-family: "Titillium Web", sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(173, 199, 255);
     
 }
@@ -23,16 +26,24 @@ main{
     min-height: 80vh;
     
 }
-header{
+header p{
+    font-size: large;
 
      
 }
+
+
+
 footer{
     color: black;
     background: rgb(62, 105, 197);
     margin-top: 30%;
     font-size: large;
 
+}
+
+.parrafo {
+    margin-top: 10%;
 }
 
 .iconos i{

@@ -23,7 +23,7 @@ function Mostrar_Footer() {
                 <div class="row">
                     <!-- Inicio: Contenedor 1  -->
                     <div class="col-md-6 col-sm-6 ">
-                        <img src="Assets/images (1).jpg" class="w-100" alt="">
+                        <img src="Assets/images-removebg-preview (1).png" class="w-100 imagenheader" alt="">
                     </div>
                     <!-- Fin: Contenedor 1 -->
 
@@ -31,15 +31,15 @@ function Mostrar_Footer() {
                     <div class="col-md-6 col-sm-6">
                         <!-- b4-jumbotron-default -->
                         <div class="">
-                            <h3 class="lead text-center"> Bienvenidos a ${nombrePagina}</h3>
-                            <p class="lead mt-5">
+                            <h1 class=" text-center"> Bienvenidos a ${nombrePagina}</h1>
+                            <p class=" mt-5">
                                 Aqui encontraras todos los eventos y conciertos que habran proximamente en Costa Rica, ademas de ver algunas de las
                                 recomendaciones de nuestros clientes, calcular tu edad para ver si eres apto para ciertos conciertos o 
                                 eventos y muchas mas cosas.
                             </p>
 
 
-                            <a class="btn btn-secondary btn-lg mt-2 d-flex justify-content-center" href="https://www.eticket.cr/" role="button">Ver conciertos </a>
+                            <a class="btn btn-primary btn-lg mt-2 d-flex justify-content-center" href="https://www.eticket.cr/" role="button">Ver conciertos </a>
 
 
                         </div>

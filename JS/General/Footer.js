@@ -19,7 +19,7 @@ function Mostrar_Footer() {
 
                 <div class="col-md-5 col-sm-6">
                     <!-- Fin: Contenedor 1 -->
-                    <p class=""> Siguenos en nuestars redes sociales para mantenerte al tanto
+                    <p class="parrafo"> Siguenos en nuestras redes sociales para mantenerte al tanto
                      de todo.</p>
                 </div>
                 <!-- Fin: footer-mensaje -->
@@ -43,7 +43,7 @@ function Mostrar_Footer() {
             </div>
             <!-- Inicio: Contenedor 1 12 columnas  -->
             <div class="col-md-12 ">
-                <p class="text-muted"> Copyright @2024 VLA| Front L-M</p>
+                <p class=""> Copyright @2025 TicketsCR| Jilari Brown</p>
             </div>
             <!-- Fin: footer-mensaje -->
 

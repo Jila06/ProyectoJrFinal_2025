@@ -22,7 +22,7 @@
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <!-- Estilos Personalizados -->
     <link rel="stylesheet" href="CSS/styles.css">
-    <link rel="shortcut icon" href="Assets/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="Assets/favicon.t" type="image/x-icon">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
@@ -33,7 +33,7 @@
 <body>
 
     <!-- Inicio: Navbar  100% -->
-    <nav class="navbar navbar-expand-sm navbar-light bg-light" id="IdNav"> </nav>
+    <nav class="navbar navbar-expand-sm navbar-light bg-lightblue" id="IdNav"> </nav>
     <!-- Fin: Navbar  -->   
     
 
@@ -54,8 +54,8 @@
         <main class="mt-5">
 
              <!-- incluye botones de filtro y descarga linea 51-56 -->
-        <div class="form-group">
-            <input type="text" class="form-control" id="IdBusqueda" placeholder="Buscar Empleado..." onkeyup="ConsultarDatos()">
+        <div class="container form-group">
+            <h2 class="text-center">Descarga la tabla en pdf o excel.</h2>
             <button class="form-control" onclick="exportToExcel()">Descargar Excel</button>
             <button class="form-control" onclick="exportToPDF()">Descargar PDF</button>
         </div>
@@ -63,13 +63,14 @@
             <div class="container  ">
                 <div class="col-md-12">
                     <h2 class="text-center mt-4">Tabla de Datos</h2>
+                    <p>Aqui encontraras una talbla de datos con algunos clientes para que le puedas escribir y te cuenten su experiencia usando la pagina.</p>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped text-center" id="ttabla">
                             <thead class="thead-dark">
                                 <tr>
+                                    <th>Id</th>
                                     <th>Nombre</th>
-                                    <th>Descripcion</th>
-                                    <th>Foto</th>
+                                    <th>Correo</th>
                                 </tr>
                             </thead>
                             <tbody id="tbody">

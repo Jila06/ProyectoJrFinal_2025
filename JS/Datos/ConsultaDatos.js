@@ -11,19 +11,19 @@ export let Datos_LiNav = [
         Id: 1, //numero
         Nombre: "Tickets CR", //nombre que ve el usuario
         Detalle: "Proyecto",   // Si es practica o proyecto
-        Url: "Inicio.html", // ruta de la pagina
+        Url: "TicketsCR.html", // ruta de la pagina
         Activo: true // Si la pagina esta activa o no, para visualizarla o no
     },
     {   Id: 2,
         Nombre: "Datos Personales",
         Detalle: "Practica",      
-        Url: "/Practica_Calculadora.html",
+        Url: "Datos-Personales.html",
         Activo: true
     },
     {   Id: 3,
         Nombre: "Listado Clientes", 
         Detalle: "Practica",     
-        Url: "/Practica_Listado_Clientes.html",
+        Url: "Listado-Clientes.html",
         Activo: true
     },
     {   Id: 4,
@@ -65,7 +65,7 @@ export let Datos_LiNav = [
     {   Id: 11,
         Nombre: "Verifica",    
         Detalle: "Practica ", 
-        Url: "/Practica_IF.html",
+        Url: "Verifica.html",
         Activo: true
     },
     {   Id: 12,

@@ -15,7 +15,8 @@ let Contenedo_IdNav = document.getElementById('IdNav');  //ls //gi
 
 Contenedo_IdNav.innerHTML = 
 `
- <a class="navbar-brand" href="#">App Store </a>
+       
+       <img class="navbar-brand imagennav" src="Assets/favicon.t" alt="">
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
             aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

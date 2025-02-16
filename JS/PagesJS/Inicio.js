@@ -56,7 +56,7 @@ function Mostrar_Articulos() {
                                 CAMILO - NUESTRO LUGAR FELIZ TOUR
 
                             </p>
-                            <a class="btn btn-danger btn-lg" href="https://www.eticket.cr/eventos.aspx?idartista=1178">Ver mas</a>
+                            <a class="btn btn-primary btn-lg" href="https://www.eticket.cr/eventos.aspx?idartista=1178">Ver mas</a>
                         </div>
                         <!-- Fin: Contenedor  2-->
                     </div>
@@ -82,7 +82,7 @@ function Mostrar_Articulos() {
                                 ESTADIO NACIONAL <br>
                                 CHAYANNE - BAILEMOS OTRA VEZ TOUR
                             </p>
-                            <a class="btn btn-danger btn-lg" href="https://www.eticket.cr/eventos.aspx?idartista=826">Ver mas</a>
+                            <a class="btn btn-primary btn-lg" href="https://www.eticket.cr/eventos.aspx?idartista=826">Ver mas</a>
                         </div>
                         <!-- Fin: Contenedor  2-->
                     </div>
@@ -107,7 +107,7 @@ function Mostrar_Articulos() {
                                 Centro de Eventos Pedregal	BELEN
                                 REIK 2025 - EVENTO PARA MAYORES DE 18 AÑOS
                             </p>
-                            <a class="btn btn-danger btn-lg" href="https://www.eticket.cr/eventos.aspx?idartista=1204">Ver mas</a>
+                            <a class="btn btn-primary btn-lg" href="https://www.eticket.cr/eventos.aspx?idartista=1204">Ver mas</a>
                         </div>
                         <!-- Fin: Contenedor  2-->
                     </div>
